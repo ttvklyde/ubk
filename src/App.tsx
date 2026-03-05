@@ -12,7 +12,6 @@ interface Game {
 }
 
 export default function App() {
-  console.log('App.tsx loaded');
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
